@@ -1,0 +1,3 @@
+vpn_login: ''
+vpn_password: ''
+vpn_port: '30080' # default: 30080
