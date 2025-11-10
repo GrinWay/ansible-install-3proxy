@@ -3,7 +3,7 @@ Automatically install and configure 3proxy on Ubuntu 20+ to use proxy.
 Proxy's kinda vpn.
 
 ### Configure app
-Before installing the 3proxy, you have to have a remote server.
+Before installing the 3proxy, you have to have an installed ansible and obtained remote server.
 
 Then configure 2 files:
 
