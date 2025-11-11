@@ -5,6 +5,12 @@ Proxy's kinda vpn.
 ### Configure app
 Before installing the 3proxy, you have to have an installed ansible and obtained remote server.
 
+Execute:
+```cmd
+cp inventory/hosts.yml.dist inventory/hosts.yml && \
+cp configure-3proxy/defaults/main.yml.dist configure-3proxy/defaults/main.yml
+```
+
 Then configure 2 files:
 
 1. 'ansible_host', 'ansible_user' and 'ansible_password' in the file:
